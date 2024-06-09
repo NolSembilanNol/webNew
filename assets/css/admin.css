@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.menu-btn {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.side-bar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.side-bar.active {
+    left: 0;
+}
+
+.side-bar header {
+    padding: 20px;
+    background-color: #444;
+}
+
+.side-bar .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.side-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-bar ul li {
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #444;
+}
+
+.side-bar ul li:hover {
+    background-color: #555;
+}
+
+.side-bar ul li i {
+    margin-right: 10px;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.main-content .content {
+    display: none;
+}
+
+.main-content .content.active {
+    display: block;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 150px;
+    text-align: center;
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.card i {
+    font-size: 50px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 0;
+}
+
+#manageusers {
+    padding: 20px;
+}
+
+#manageusers form {
+    margin-bottom: 20px;
+}
+
+#manageusers form div {
+    margin-bottom: 10px;
+}
+
+#manageusers form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#manageusers form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#user-list {
+    list-style: none;
+    padding: 0;
+}
+
+#user-list li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#user-list li span {
+    flex-grow: 1;
+}
+
+#user-list li button {
+    margin-left: 10px;
+}
+
+
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    background-color: #3f72af; 
+    padding-top: 20px;
+}
+.sidebar .nav-link,
+.sidebar .navbar-brand {
+    color: white !important;
+}
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}

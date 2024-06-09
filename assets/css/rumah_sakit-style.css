@@ -1,0 +1,166 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #CE5A67;
+    margin-top: 20px; /* Tambahkan margin-top */
+    margin-bottom: 20px; /* Tambahkan margin-bottom */
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 500;
+    float: left;
+    font-family: courier;
+    color: #CE5A67;
+}
+
+.menu {
+    float: right;
+}
+
+a.tbl-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #CE5A67;
+    text-decoration: none;
+}
+
+#tutors p.deskripsi{
+    z-index: 1;
+    border-bottom:1px solid #3f72af;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom:1px solid #070707;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 25px 0px 25px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.kategori li {
+    display: flex;
+    align-items: center;
+}
+
+.kategori li img {
+    width: 50px; /* Sesuaikan dengan ukuran yang diinginkan */
+    height: 50px; /* Sesuaikan dengan ukuran yang diinginkan */
+    margin-right: 10px; /* Sesuaikan jarak antara gambar dan teks */
+}
+
+
+.dropdown {
+    display: none;
+    background: #3f72af;
+    position: absolute;
+    padding: 10px;
+    margin-top: 10px; /* optional: adjust based on your layout */
+}
+
+.dropdown-parent:hover .dropdown {
+    display: block;
+}
+
+.dropdown li {
+    display: block;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+#aboutus {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#aboutus .wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#aboutus .footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#aboutus .footer-section h3 {
+    margin-bottom: 10px;
+}
+
+#aboutus .footer-section p {
+    margin-bottom: 5px;
+}
+
+#copyright {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
